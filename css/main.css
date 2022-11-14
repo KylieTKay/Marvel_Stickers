@@ -42,6 +42,11 @@ header nav ul li {
   cursor: pointer;
 }
 
+
+header ul:last-child::after {
+  content: "\25bc";
+  padding-left: 4px;
+}
 /* add a down arrow after the last list item */
 
 
@@ -82,6 +87,11 @@ header nav ul li:hover { opacity: 0.8; }
 }
 
 .characters li img { max-width: 100%; }
+
+input[type=checkbox] {
+  margin-right: 8px;
+  cursor: pointer;
+}
 
 /* ::after rules go here */
 
